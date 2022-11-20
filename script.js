@@ -23,13 +23,13 @@ $(document).ready(function () {
     $(".menu-btn i").toggleClass("active");
   });
   var typed = new Typed(".typing", {
-    strings: ["Self-learner", "Front-end Web Developer","Freelancer"],
+    strings: ["Self-learner", "Front-end Web Developer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
   var typed = new Typed(".typing-2", {
-    strings: ["Self-learner", "Front-end Web Developer","Freelancer"],
+    strings: ["Self-learner", "Front-end Web Developer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -47,3 +47,28 @@ $(document).ready(function () {
     },
   });
 });
+
+const handleEmailMe = () => {
+  window.open("mailto:phong12b5nd@gmail.com");
+};
+const handleGitHubMe = () => {
+  window.open("http://bitly.ws/wTEA");
+};
+const handleEnglishMe = () => {
+  window.open("http://bitly.ws/vbqP");
+};
+const handleCertificateMe = () => {
+  window.open("http://bitly.ws/vbqL");
+};
+const handleMp3Me = () => {
+  window.open("http://bitly.ws/wQgf");
+};
+const handleEmployeeMe = () => {
+  window.open("http://bitly.ws/wDMF");
+};
+const handleSportMe = () => {
+  window.open("http://bitly.ws/wDMt");
+};
+const handleAuctionsMe = () => {
+  window.open("https://gushop.tk/");
+};

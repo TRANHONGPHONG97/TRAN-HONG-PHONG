@@ -11,8 +11,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trần Hồng Phong - Trang web cá nhân</title>
-    <link rel="shortcut icon" href="/images/avatar1.jpg">
+    <title>Trần Hồng Phong</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -22,6 +21,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="icon" href="images/avatar2.jpg" type="image/gif" sizes="16x16">
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -29,13 +31,13 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#"><span></span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Trang chủ</a></li>
-                <li><a href="#about" class="menu-btn">Thông tin cá nhân</a></li>
-                <li><a href="#skills" class="menu-btn">Kỹ năng và Sở thích</a></li>
-                <li><a href="#services" class="menu-btn">Dự án</a></li>
-                <li><a href="#contact" class="menu-btn">Liên hệ</a></li>
+                <li><a href="#home" class="menu-btn">TRANG CHỦ</a></li>
+                <li><a href="#about" class="menu-btn">THÔNG TIN CÁ NHÂN</a></li>
+                <li><a href="#skills" class="menu-btn">KỸ NĂNG</a></li>
+                <li><a href="#services" class="menu-btn">DỰ ÁN</a></li>
+                <li><a href="#contact" class="menu-btn">LIÊN HỆ</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -46,98 +48,148 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Xin chào! Tôi tên là
-                <h1 class="text-2"> Phong</h1>
+                <h1 class="text-2" style="color:blue; font-weight: bolder;"> Trần Hồng Phong</h1>
             </div>
                 <br>
-                <h2>Hiện đang sống và học tập tại Huế.</h2>
-                <a href="https://github.com/TRANHONGPHONG97">Trang làm việc</a>
+                <h2>Lập trình viên Java Web Full-stack</h2>
+                <a download="" href="/pdf/Tran-Hong-Phong-CV.pdf">Tải xuống CV</a>
             </div>
         </div>
-        <img class="avatar-bo" src="images/avatar.jpg" alt="">
+        <img style="border-radius: 30px; border: solid 1px black;" class="avatar-bo" src="images/avatar.jpg" alt="">
     </section>
     <section class="about" id="about">
         <div class="max-width">
-            <h2 style="text-align: center;">Thông tin cá nhân</h2>
+            <h2 style="text-align: center; color:blue; font-weight: bolder;">Thông tin chi tiết cá nhân</h2>
+            <br>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/avatar1.jpg" alt="">
+                    <img style="border-radius: 30px; border: solid 1px black;" src="images/avatar2.jpg" alt="">
                 </div>
-                <div class="column right">
-                    <div class="text">Tôi là Phong <span class="typing-2"></span></div>
-                    <p>Tôi học lập trình viên Java Web Fullstack tại Trung tâm đào tạo lập trình viên CODEGYM HUẾ từ 03/2022 - 10/2022. <br>
-                        Tôi là người luôn vui vẻ, hòa đồng, luôn nổ lực và cố gắng hoàn thành các công việc được giao.
-                        Ngoài ra, tôi còn đặc biệt chú ý đến việc phát triển năng lực của bản thân, cố gắng tìm tòi, học hỏi và định hướng tương lai để trở thành
-                       một lập trình viên chuyên nghiệp Java Web Fullstack.</p>
-                    <a href="http://bitly.ws/vbso">Tải CV</a>
+                <div class="">
+                   <div class="info-me">
+                   <h4 style="font-weight: bold;"><i class="fas fa-user"></i> Họ và tên: <span style="font-weight: lighter;">Trần Hồng Phong</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-calendar-alt"></i> Ngày sinh: <span style="font-weight: lighter;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05/01/1997</span></h4>
+                   <h4 style="font-weight: bold;"><i onclick=handleEmailMe() style="cursor: pointer;" class="fas fa-envelope"></i> <span style="cursor: pointer;"  onclick=handleEmailMe()>Email:</span> <span onclick=handleEmailMe() style="font-weight: lighter; cursor: pointer;">phong12b5nd@gmail.com</span> &nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-phone"></i> Điện thoại: <span style="font-weight: lighter;">&nbsp;&nbsp;&nbsp;&nbsp;0355692116</span></h4>
+                   <br>
+                   <h4 style="font-weight: bold;"><i class="fas fa-graduation-cap"></i> Tốt nghiệp: <a style="font-weight: lighter;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lập trình viên Java Web Full-stack</a></h4>
+                   <h4 style="font-weight: bold;"><i class="fas fa-hourglass-half"></i> Thời gian: <a style="font-weight: lighter;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/2022-11/2022</a></h4>
+                   <h4 style="font-weight: bold;"><i class="fas fa-school"></i> Trường: <span style="font-weight: lighter;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trung tâm Đào tạo Lập trình viên CodeGym Huế</span></h4>
+                   <h4 style="font-weight: bold;"><i class="fas fa-map-marker-alt"></i> Địa chỉ: <span style="font-weight: lighter;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28, Nguyễn Tri Phương, Phú Hội, Huế</span></h4>
+                   <br>
+                   <h4 onclick=handleCertificateMe() style="font-weight: bold; cursor: pointer;"><i class="fas fa-certificate"></i> Bằng cấp: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: lighter;">Cử nhân chuyên ngành Sư phạm Địa lý</span></h4>
+                   <h4 onclick=handleEnglishMe() style="font-weight: bold; cursor: pointer;"><i class="fas fa-language"></i> Ngoại ngữ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: lighter;">Tiếng Anh B1</span></h4>
+                   <h4 onclick=handleGitHubMe() style="font-weight: bold; cursor: pointer;"><i class="fab fa-github"></i> GitHub:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: lighter;">TRANHONGPHONG97</span></h4>
+                </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 style="text-align: center;">Kỹ năng và Sở thích</h2>
             <div class="skills-content">
                 <div class="column left">
                     <p class="skills__text">
-                            Kỹ năng chuyên ngành: <br>
-                        ✔ Java Core <br>
-                        ✔ Spring Framework <br>
-                        ✔ HTML, CSS, Boostrap <br>
-                        ✔ JavaScript, jQuery, Ajax <br>
-                        ✔ ReactJS <br>
-                        ✔ GitHub <br>
-                        ✔ MySQL <br>
+                        <h4 style="text-align: center; color:blue; font-weight: bolder;">Kỹ năng mềm</h4>
+                        <p style="font-size: 18px;">✔ Kỹ năng thuyết trình</p>
+                        <p style="font-size: 18px;">✔ Kỹ năng giao tiếp</p>
+                        <p style="font-size: 18px;">✔ Khả năng làm việc độc lập</p>
+                        <p style="font-size: 18px;">✔ Làm việc theo nhóm và tương tác</p>
+                        <p style="font-size: 18px;">✔ Thích nghi với môi trường, chịu được áp lực công việc cao</p>
                         <br>
-                            Kỹ năng mềm: <br>
-                        ✔ Làm việc theo nhóm và tương tác <br>
-                        ✔ Khả năng làm việc độc lập <br>
-                        ✔ Thích nghi với môi trường, chịu được áp lực công việc cao <br>
-                        ✔ Tổ chức, lập kế hoạch và quản lý thời gian hiệu quả <br>
-                        <br>
-                            Sở thích: <br>
-                        ✔ Đá bóng <br>
-                        ✔ Xem phim <br>
-                        ✔ Nghe nhạc <br>
-                        ✔ Du lịch
-                      </p>
+                        <h4 style="text-align: center; color:blue; font-weight: bolder;">Sở thích</h4> 
+                        <p style="font-size: 18px;">✔ Bóng đá, bóng chuyền, billiards</p>
+                        <p style="font-size: 18px;">✔ Xem phim</p>
+                        <p style="font-size: 18px;">✔ Nghe nhạc</p>
+                        <p style="font-size: 18px;"> ✔ Du lịch</p>
+                    </p>
                 </div>
-                <div class="column-right">
+                <div class="column right">
+                    <h3 style="text-align: center; color:blue; font-weight: bolder;">Kiến thức - Công nghệ</h3>
+                    <div class="bars">
+                    <div class="info">
+                        <span>Java Core</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line php"></div>
+                    <br>
+                   <div class="bars">
+                    <div class="info">
+                        <span>Spring Framework, RESTful API</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line framework"></div>
+                    <br>
+                    <div class="bars">
+                     <div class="info">
+                         <span>Object Oriented Programming</span>
+                         <span>60%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                    <br>
                     <div class="bars">
                         <div class="info">
-                            <img style="width: 500px;
-                            height: 200px;" src="./images/skill.png" alt="">
+                            <span>React, JavaScript</span>
+                            <span>40%</span>
                         </div>
+                        <div class="line js"></div>
+                        <br>
+                    <div class="bars">
+                    <div class="info">
+                        <span>HTML, CSS</span>
+                        <span>60%</span>
                     </div>
+                    <div class="line html"></div>
+                    <br>
+                    <div class="bars">
+                    <div class="info">
+                        <span>jQuery, Bootstrap</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                    <br>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Git/Sourcetree</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    <br>
+                    <div class="bars">
+                    <div class="info">
+                        <span>MySQL, Postman</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line mysql"></div>
                 </div>
             </div>
         </div>
     </section>
     <section class="services" id="services">
         <div class="max-width">
-            <h2 style="text-align: center;">Dự án</h2>
+            <h2 style="text-align: center; color: blue; font-weight: bolder;">Một số dự án đã thực hiện</h2>
+            <br>
             <div class="serv-content">
                 <div class="card">
-                    <div class="box">
+                    <div onclick=handleMp3Me() class="box">
                         <b>MP3 PLAYER</b>
-                        <a href="https://github.com/TRANHONGPHONG97/MP3-PLAYER">
-                            <img style="width: 300px; height: 200px;" src="images/module1.jpg" alt="">
-                        </a>
+                            <img style="width: 200px; height: 200px;" src="images/module1.jpg" alt="">
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        <b>PHONG TRAN SPORTS</b>
-                        <a href="https://github.com/TRANHONGPHONG97/phong-tran-sprorts">
-                            <img style="width: 300px; height: 200px;" src="images/module4.jpg" alt="">
-                        </a>
+                    <div onclick=handleAuctionsMe() class="box">
+                        <b>AUCTIONS SHOP ONLINE</b>
+                            <img style="width: 200px; height: 200px;" src="images/auctions.jpg" alt="">
                     </div>
                 </div>
                 <div class="card">
-                    <div class="box">
+                    <div onclick=handleEmployeeMe() class="box">
                         <b>EMPLOYEE MANAGER</b>
-                        <a href="https://github.com/TRANHONGPHONG97/Employee-Manager">
-                            <img style="width: 300px; height: 200px;" src="images/module5.jpg" alt="">
-                        </a>
+                            <img style="width: 200px; height: 200px;" src="images/module5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div onclick=handleSportMe() class="box">
+                        <b>PHONG TRAN SPORT</b>
+                            <img style="width: 200px; height: 200px;" src="images/module4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -146,7 +198,7 @@
     </section>
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 style="text-align: center;">Liên hệ</h2>
+            <h2 style="text-align: center; color:blue; font-weight: bolder;">Thông tin liên hệ</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="icons">
@@ -163,16 +215,15 @@
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-envelope"></i>
+                            <i style="cursor: pointer;" class="fas fa-envelope" onclick=handleEmailMe()></i>
                             <div class="info">
-                                <div class="sub-title"><a href="https://mail.google.com" class="__cf_email__"
-                                        data-cfemail="aecfcccdeec9c3cfc7c280cdc1c3">phong12b5nd@gmail.com</a></div>
+                                <div style="cursor: pointer;" onclick=handleEmailMe() class="sub-title">phong12b5nd@gmail.com</a></div>
                             </div>
                         </div>  
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
-                                <div class="sub-title">Huế, Việt Nam</div>
+                                <div class="sub-title">28, Nguyễn Tri Phương, Phú Hội, thành phố Huế</div>
                             </div>
                         </div>
                     </div>
@@ -184,14 +235,15 @@
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                             title="map"
+                            style="width: 500px; height: 300px;"
                         ></iframe>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <span> <a href="#">Trần Hồng Phong</a> <span
-                class="far fa-copyright"></span> 2022</span>
+        <span> <a href="#">Trần Hồng Phong</a> code <span
+                class="far fa-copyright"></span> 11-2022</span>
     </footer>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="script.js"></script>
