@@ -72,3 +72,6 @@ const handleSportMe = () => {
 const handleAuctionsMe = () => {
   window.open("https://gushop.tk/");
 };
+const handleCVMe = () => {
+  window.open("http://bitly.ws/vbso");
+};
